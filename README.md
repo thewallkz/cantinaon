@@ -616,7 +616,6 @@ Foi adicionada uma trilha inicial em [`docs/canteen-express-integration-plan.md`
 - [Plano de integração do frontend](docs/canteen-express-integration-plan.md)
 - [Schema do banco](database/schema.sql)
 - [Seed local](database/seed.sql)
-
 ## 🖥️ Requisitos mínimos de servidor para hospedagem
 
 Esta seção define os requisitos mínimos de infraestrutura para execução do **CantinaOn** em ambiente de produção de pequeno porte (ex.: uma escola com volume inicial de usuários). Para cenários com maior concorrência de acessos, recomenda-se escalonamento vertical/horizontal e monitoramento contínuo.
@@ -871,4 +870,3 @@ Para garantir disponibilidade e confiabilidade em médio e longo prazo, recomend
 - política de backup diário do PostgreSQL com teste de restauração;
 - rotina de atualização de segurança do servidor;
 - documentação de rollback para versões anteriores.
-
